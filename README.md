@@ -13,6 +13,8 @@ Alur tulisan (berlaku untuk paper maupun deck):
 2. Kontribusi Hall dan Woodford
 3. Relevansinya bagi Indonesia
 
+Sebagai contoh, lihat tulisan Andra dan Devy tahun lalu: [Membedah Nobel Ekonomi 2025 dan Implikasinya terhadap Perekonomian Indonesia](https://dewanekonomi.go.id/publikasi/membedah-nobel-ekonomi-2025-dan-implikasinya-terhadap-perekonomian-indonesia).
+
 ## Cara menggunakan
 
 ### Kebutuhan
