@@ -1,0 +1,45 @@
+title: "DEN Branded Template"
+author: "DEN"
+version: "1.2.0"
+quarto-required: ">=1.4"
+contributes:
+  formats:
+    revealjs:
+      theme: [default, revealjs.scss]
+      slide-number: true
+      footer: ""
+      logo: logo.png
+      title-slide-attributes:
+        data-background-image: title.jpg
+        data-background-size: cover
+      css: revealjs.scss
+      include-after-body: title-detect.html
+      filters:
+        - ending-slide.lua
+        - section-divider.lua
+        - small-slide.lua
+        - cols.lua
+        - takeaway.lua
+      format-resources:
+        - end.jpg
+    beamer:
+      aspectratio: 169
+      theme: default
+      colortheme: default
+      include-in-header: beamer-header.tex
+      # Code-chunk figures are drawn at the size of the .fig-full slot
+      # (text width 5.5in), so figure fonts print at their true size.
+      fig-width: 5.5
+      fig-height: 2.2
+      filters:
+        - ending-slide.lua
+        - section-divider.lua
+        - small-slide.lua
+        - cols.lua
+        - fig-height.lua
+        - takeaway.lua
+        - table-style.lua
+      format-resources:
+        - title.jpg
+        - end.jpg
+        - logo.png

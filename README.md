@@ -1,21 +1,49 @@
-## Introduction
+## Tentang repo ini
 
-fills with what this repo is about. If there is a question about this repo, feel free to send an email to name(at)dewanekonomi.go.id
+Repo ini digunakan untuk menulis resensi tentang pemenang Hadiah Nobel Ekonomi 2026, Hall dan Woodford. Isinya:
 
-## How to use
+- `nobel2026-paper.qmd`: policy brief.
+- `nobel2026-deck.qmd`: presentasi (beamer PDF dan revealjs HTML).
 
-### Requirements
+Hasil render tersimpan di folder `docs/`.
 
-Anda memerlukan instalasi Stata dan memerlukan paket `XTPMG`, `outreg2` dan `esttab`.
+Alur tulisan (berlaku untuk paper maupun deck):
 
-Cara penggunaan:
+1. Pendahuluan
+2. Kontribusi Hall dan Woodford
+3. Relevansinya bagi Indonesia
 
-Gunakan IDE favorit anda. Lalu jalankan program-program berikut ini:
+## Cara menggunakan
 
-1. prepare.do
-2. analysis.do
+### Kebutuhan
 
-Hasil data yang bersih akan ada di folder "data", hasil gambar akan ada di folder "fig" dan hasil regresi akan ada di fodler "reg".
+- [Quarto](https://quarto.org)
+- Distribusi LaTeX dengan `lualatex` (misalnya TeX Live atau TinyTeX: `quarto install tinytex`)
+
+### Mengedit policy brief
+
+1. Buka `nobel2026-paper.qmd`.
+2. Ubah judul, penulis, abstrak, dan kata kunci di bagian YAML (di antara tanda `---` di awal file).
+3. Tulis isi tulisan di bawah YAML menggunakan Markdown.
+4. Tambahkan referensi ke `ref.bib`, lalu kutip dengan `@kunci` (misalnya `@hall1978`).
+
+### Mengedit presentasi
+
+1. Buka `nobel2026-deck.qmd`.
+2. Ubah judul dan tanggal di bagian YAML.
+3. Setiap judul `##` menjadi satu slide baru. Kelas yang tersedia, misalnya `{.small}`, `{.smaller}`, `{.section-divider}`, dan `{.ending-slide}`, sudah dicontohkan di dalam file.
+
+### Render
+
+Dari folder repo, jalankan:
+
+```bash
+quarto render                          # render paper dan deck
+quarto render nobel2026-paper.qmd      # render paper saja
+quarto render nobel2026-deck.qmd       # render deck saja
+```
+
+Hasilnya akan muncul di folder `docs/`.
 
 ## Sitasi
 

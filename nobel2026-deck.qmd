@@ -1,0 +1,60 @@
+---
+title: "Your Presentation Title"
+date: "4 February 2026"
+date-format: "DD MMMM YYYY"
+format:
+  den-revealjs: default
+  den-beamer: default
+---
+
+## Introduction
+
+Welcome to your presentation! This template includes:
+
+- Branded title slide with background image
+- Logo in the top-right corner
+- Brown accent line before headings
+- Styled page numbers
+
+## Key Points {.small}
+
+Here are some bullet points:
+
+- First important point
+- Second important point
+- Third important point
+- Fourth point to show smaller text
+- Fifth point for comparison
+
+## Bagian 2: Analisis {.section-divider background-image="title.jpg"}
+
+## Dense Content {.smaller}
+
+This slide uses the smaller class for very dense content:
+
+- Item one with details
+- Item two with more info
+- Item three explanation
+- Item four description
+- Item five notes
+- Item six summary
+- Item seven conclusion
+
+## Data Example
+
+| Category | Value | Change |
+|----------|-------|--------|
+| Item A   | 100   | +10%   |
+| Item B   | 200   | -5%    |
+| Item C   | 150   | +3%    |
+
+## Terima kasih {.ending-slide}
+
+## Lampiran: Catatan Tambahan
+
+The ending slide is now a reusable environment, so you can place an appendix
+after it without breaking the layout.
+
+- Catatan metodologi
+- Sumber data
+- Kontak: `author@example.org`
