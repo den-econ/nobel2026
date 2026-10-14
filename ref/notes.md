@@ -3,6 +3,7 @@
 ## General reading
 
 - [John Cochrane on the current nobel prize in economics winners](https://www.grumpy-economist.com/p/a-great-nobel).
+- Noah.pdf (tulisan Noah Smith, blogger ekonomi ternama). 
 - Money Talks The Economist biasanya akan wawancara nobel winners. kalo episodenya dah keluar akan gw kabarin.
 - Di bawah ini selected papers buat kalian baca, tapi ofcourse terserah mau baca apa asal dicite yah
 
