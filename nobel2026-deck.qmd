@@ -1,60 +1,235 @@
 ---
-title: "Your Presentation Title"
-date: "4 February 2026"
+title: "Membedah Nobel Ekonomi 2026: Robert Hall dan Teori Konsumsi"
+date: "2026-10-16"
 date-format: "DD MMMM YYYY"
+lang: id
 format:
   den-revealjs: default
   den-beamer: default
 ---
 
-## Introduction
+## Nobel Ekonomi 2026: mengapa konsumsi?
 
-Welcome to your presentation! This template includes:
+- Nobel Ekonomi 2026 diberikan kepada **Robert E. Hall** dan **Michael Woodford**
+- Deck ini fokus pada kontribusi Hall: bagaimana rumah tangga memutuskan konsumsi dan tabungan dari waktu ke waktu
+- Konsumsi rumah tangga adalah komponen terbesar PDB Indonesia (sekitar separuh lebih)
+- Pertanyaan kebijakan: seberapa besar konsumsi merespons pendapatan, transfer, dan suku bunga?
 
-- Branded title slide with background image
-- Logo in the top-right corner
-- Brown accent line before headings
-- Styled page numbers
+::: {.takeaway}
+Memahami perilaku konsumsi = memahami efektivitas kebijakan fiskal dan moneter.
+:::
 
-## Key Points {.small}
+## Dua paper Hall yang dibedah
 
-Here are some bullet points:
+:::: {.cols}
 
-- First important point
-- Second important point
-- Third important point
-- Fourth point to show smaller text
-- Fifth point for comparison
+::: {.card title="Hall (1978), JPE"}
+*Stochastic Implications of the Life Cycle–Permanent Income Hypothesis*
 
-## Bagian 2: Analisis {.section-divider background-image="title.jpg"}
+- Konsumsi mengikuti *random walk*
+- Pendapatan masa lalu tidak memprediksi konsumsi
+:::
 
-## Dense Content {.smaller}
+::: {.card .gold title="Hall (1988), JPE"}
+*Intertemporal Substitution in Consumption*
 
-This slide uses the smaller class for very dense content:
+- Seberapa responsif konsumsi terhadap suku bunga riil?
+- Jawaban: sangat kecil, mungkin nol
+:::
 
-- Item one with details
-- Item two with more info
-- Item three explanation
-- Item four description
-- Item five notes
-- Item six summary
-- Item seven conclusion
+::::
 
-## Data Example
+## Latar Belakang {.section-divider background-image="title.jpg"}
 
-| Category | Value | Change |
-|----------|-------|--------|
-| Item A   | 100   | +10%   |
-| Item B   | 200   | -5%    |
-| Item C   | 150   | +3%    |
+## Sebelum Hall: konsumsi sebagai fungsi pendapatan
+
+- Model Keynesian/IS-LM: $C = \bar{C} + \alpha Y$, dengan $\alpha$ = *marginal propensity to consume* (MPC)
+- MPC menentukan besar *multiplier* belanja pemerintah
+- Friedman (1957): rumah tangga mengonsumsi berdasarkan **pendapatan permanen**, bukan pendapatan saat ini
+- Lucas (1976): parameter seperti MPC tidak stabil ketika kebijakan berubah
+- Tantangan: bagaimana menguji teori konsumsi bila rumah tangga punya informasi lebih banyak dari ekonom?
+
+## Hall (1978): Konsumsi sebagai *Random Walk* {.section-divider background-image="title.jpg"}
+
+## Ide sederhana: konsumsi seperti harga saham
+
+- Harga saham = nilai kini dividen masa depan → bergerak acak (*random walk*)
+- Dalam hipotesis pendapatan permanen, konsumsi = nilai kini pendapatan masa depan
+- Maka konsumsi juga seharusnya bergerak acak
+- Konsumsi hanya berubah ketika ada **informasi baru** tentang pendapatan jangka panjang
+
+::: {.takeaway}
+Bila rumah tangga merencanakan secara optimal, perubahan konsumsi tidak dapat diprediksi.
+:::
+
+## Dari kondisi optimal ke uji empiris {.small}
+
+Kondisi optimal (persamaan Euler), dengan suku bunga tetap:
+
+$$
+u'(c_t) = E_t\left[u'(c_{t+1})\right] \quad\Rightarrow\quad c_{t+1} = c_t + \varepsilon_{t+1}
+$$
+
+Uji regresi Hall:
+
+$$
+c_{t+1} - c_t = a + b\, x_t + \varepsilon_{t+1}
+$$
+
+- $x_t$: variabel apa pun yang diketahui pada periode $t$ (konsumsi lalu, pendapatan lalu, harga saham)
+- Prediksi teori: $b = 0$
+- Kelebihan: tidak perlu memodelkan seluruh ekspektasi pendapatan rumah tangga
+
+## Temuan Hall (1978)
+
+| Prediktor tambahan | Statistik F | Nilai kritis 5% | Memprediksi? |
+|:--|:--|:--|:--|
+| Konsumsi lag 2–4 kuartal | 1,7 | 2,7 | Tidak |
+| Pendapatan disposabel lag 1 kuartal | 0,1 | 3,9 | Tidak |
+| Pendapatan disposabel lag 1–4 kuartal | 2,0 | 2,4 | Tidak |
+| Harga saham lag 1–4 kuartal | 6,5 | 2,4 | Ya, sedikit |
+
+- Data: konsumsi nondurable dan jasa per kapita AS, kuartalan 1948–1977
+- Harga saham menurunkan galat prediksi hanya sekitar US\$0,20 per orang per tahun
+
+::: {.takeaway}
+Hipotesis pendapatan permanen dengan ekspektasi rasional sebagian besar didukung data.
+:::
+
+## Implikasi kebijakan menurut Hall (1978)
+
+- Hanya perubahan kebijakan yang **tidak terduga** yang memengaruhi konsumsi; yang sudah diantisipasi sudah tercermin hari ini
+- Kebijakan memengaruhi konsumsi hanya sejauh mengubah **pendapatan permanen**
+- Kebijakan yang hanya berdampak sementara pada pendapatan nyaris tidak menggeser konsumsi
+- Contoh: pemotongan pajak permanen langsung menaikkan konsumsi
+- Regresi konsumsi terhadap pendapatan masa lalu tidak berguna untuk analisis kebijakan
+
+::: {.takeaway}
+Kebijakan kontrasiklus lewat konsumsi lebih sulit dirancang dari yang diasumsikan model Keynesian.
+:::
+
+## Mengapa paper ini penting
+
+:::: {.cols}
+
+::: {.card title="Metode"}
+- Menguji kondisi optimal (Euler), bukan solusi model penuh
+- Tahan terhadap informasi rumah tangga yang tidak terlihat ekonom
+:::
+
+::: {.card .gold title="Warisan"}
+- Membuka jalan bagi GMM (Hansen & Singleton) dan model makro modern
+- Persamaan Euler menjadi fondasi model DSGE
+:::
+
+::::
+
+## Hall (1988): Konsumsi dan Suku Bunga {.section-divider background-image="title.jpg"}
+
+## Pertanyaan: seberapa responsif konsumsi terhadap suku bunga?
+
+- Suku bunga riil naik → rumah tangga menunda konsumsi? Seberapa besar?
+- Diukur dengan **elastisitas substitusi antarwaktu** (EIS, $\sigma$)
+- Menurut Hall, EIS menentukan:
+  - Seberapa kuat suku bunga meredam permintaan agregat
+  - Besarnya distorsi pajak atas bunga/tabungan
+  - Beban utang publik dan jaminan sosial tak terdanai
+  - Pergerakan konsumsi sepanjang siklus bisnis
+
+## Model dan strategi estimasi {.small}
+
+Dengan suku bunga riil yang berubah-ubah, persamaan Euler menjadi:
+
+$$
+\Delta c_t = \sigma\, \bar{r}_{t-1} + k + \varepsilon_t
+$$
+
+- $\Delta c_t$: pertumbuhan log konsumsi
+- $\bar{r}_{t-1}$: suku bunga riil yang **diharapkan**
+- $\sigma$: elastisitas substitusi antarwaktu
+- Implikasi: hanya ekspektasi suku bunga riil yang boleh memprediksi pertumbuhan konsumsi
+- Diestimasi dengan variabel instrumen, memperhitungkan agregasi waktu data konsumsi
+
+## Temuan Hall (1988): EIS mendekati nol
+
+| Metode | Estimasi $\sigma$ | Simpangan baku |
+|:--|:--|:--|
+| Instrumen seperti Summers (kurang tepat) | 0,34 | (0,13) |
+| Estimator Hayashi–Sims, instrumen valid | 0,10 | (0,23) |
+
+- Pergeseran suku bunga riil (T-bill, tabungan, saham) besar, tetapi pertumbuhan konsumsi nyaris tidak berubah
+- Kesimpulan Hall: $\sigma$ kemungkinan tidak jauh di atas 0,1, dan bisa jadi nol
+
+::: {.takeaway}
+Konsumsi agregat hampir tidak merespons perubahan suku bunga riil.
+:::
+
+## Warisan: teka-teki yang belum selesai
+
+- Persamaan Hall adalah "kurva IS" dalam model New Keynesian (penghubung ke Woodford):
+
+$$
+x_t = E_t x_{t+1} - \sigma\,(i_t - E_t \pi_{t+1})
+$$
+
+- Model mengasumsikan $\sigma$ cukup besar, padahal data Hall menunjukkan kecil
+- Cochrane (2024): ini masih "duri" dalam makroekonomi modern
+- Studi baru (mis. Di Tella dkk. 2023) mulai menemukan respons, tetapi tetap kecil
+
+## Implikasi bagi Indonesia {.section-divider background-image="title.jpg"}
+
+## Kebijakan moneter: jalur konsumsi relatif lemah
+
+- Jika EIS kecil, kenaikan BI-Rate tidak banyak menunda konsumsi rumah tangga
+- Transmisi kebijakan moneter lebih bergantung pada jalur kredit, nilai tukar, dan ekspektasi
+- Relevan bagi Indonesia: inklusi keuangan dan akses kredit rumah tangga masih terbatas
+- [Data: porsi kredit konsumsi terhadap PDB, perbandingan ASEAN]
+
+::: {.takeaway}
+Efektivitas BI-Rate untuk meredam permintaan bergantung pada kanal di luar substitusi antarwaktu.
+:::
+
+## Kebijakan fiskal: transfer sementara vs permanen
+
+- Menurut Hall/PIH, transfer **sementara** hanya sedikit menaikkan konsumsi; transfer **permanen** berdampak lebih besar
+- Namun banyak rumah tangga Indonesia menghadapi kendala likuiditas (*hand-to-mouth*)
+- Bagi kelompok ini, bansos/BLT langsung dibelanjakan, sehingga MPC tinggi
+- Implikasi: penargetan yang tepat menentukan dampak stimulus terhadap konsumsi
+- [Data: estimasi MPC dari Susenas atau IFLS]
+
+## Tabungan dan perpajakan
+
+- EIS rendah → insentif suku bunga/pajak atas bunga tidak banyak mengubah tabungan rumah tangga
+- Mobilisasi tabungan domestik lebih efektif melalui pendalaman pasar keuangan dan inklusi keuangan
+- Distorsi dari pajak atas bunga relatif kecil terhadap pola konsumsi
+- [Data: rasio tabungan domestik bruto Indonesia vs ASEAN]
+
+## Kesimpulan {.small}
+
+:::: {.cols}
+
+::: {.card title="Temuan Hall"}
+- Konsumsi mendekati *random walk*: hanya bereaksi pada informasi baru
+- Suku bunga riil hampir tidak memengaruhi pertumbuhan konsumsi
+:::
+
+::: {.card .gold title="Pelajaran untuk Indonesia"}
+- Jangan terlalu mengandalkan kanal konsumsi untuk transmisi moneter
+- Desain transfer fiskal perlu memperhatikan rumah tangga dengan kendala likuiditas
+:::
+
+::::
+
+::: {.takeaway}
+Persamaan Euler Hall tetap menjadi fondasi makro modern, sekaligus teka-teki terbesarnya.
+:::
 
 ## Terima kasih {.ending-slide}
 
-## Lampiran: Catatan Tambahan
+## Lampiran: Referensi {.small}
 
-The ending slide is now a reusable environment, so you can place an appendix
-after it without breaking the layout.
-
-- Catatan metodologi
-- Sumber data
-- Kontak: `author@example.org`
+- Hall, R. E. (1978). Stochastic Implications of the Life Cycle–Permanent Income Hypothesis: Theory and Evidence. *Journal of Political Economy*, 86(6), 971–987.
+- Hall, R. E. (1988). Intertemporal Substitution in Consumption. *Journal of Political Economy*, 96(2), 339–357.
+- Cochrane, J. H. (2024). Bob Hall and Consumption. Hoover Institution.
+- Friedman, M. (1957). *A Theory of the Consumption Function*. Princeton University Press.
+- Lucas, R. E. (1976). Econometric Policy Evaluation: A Critique. *Carnegie-Rochester Conference Series on Public Policy*, 1.
