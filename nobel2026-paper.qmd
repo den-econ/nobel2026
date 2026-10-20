@@ -77,18 +77,22 @@ crossref: # turn off if you write in english
 
 <!-- LALA Bahas paper hall, ga perlu detil2, cek cochrane dan noah dan [Tyler Cowen on Robert Hall](https://marginalrevolution.com/marginalrevolution/2026/10/robert-hall-nobel-laureate.html) make sure key takeawaysnya ada: bahwa konsumsi follows Permanent Income Hypothesis (PIH) by friedman consumption follows a random walk (artinya ga banyak hal masa lalu yg ngaruh ke konsumsi, time series alone wont help you predict the econom), -->
 
-
+{{< include lala1.qmd >}}
 
 <!-- HAIKAL Bahas woodford, bahas soal new NK model for CB, that is, macro vars pada random walk, thus forward looking, thus setting expectation by having a credible central bank is very important, mungkin lebih penting daripada toolsnya itu sendiri. "Communication itself is a POLICY TOOL for BI" Haikal mesti dig in apa yang disebut dengan "New Keynesian model"  aka the 3-equation model. -->
+
+{{< include haikal1.qmd >}}
 
 # Pelajaran bagi indon
 
 <!-- buka dengan pentingnya manage expectation, karena itu penting untuk policy maker, dan juga untuk masyarakat. -->
 
+{{< include lala2.qmd >}}
+
 <!-- HAIKAL expectation management is important for economic agents, both consumers and investors alike -->
 
 <!-- HAIKAL credible financial market (ie stock market, bond market, BI) is extremely imporant central bank is extremely important -->
-
+{{< include haikal2.qmd >}}
 <!-- LALA something terkait konsumen, misalnya kredibility of tax policy dan subsidy policy -->
 
 # References
