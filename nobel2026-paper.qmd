@@ -77,6 +77,8 @@ crossref: # turn off if you write in english
 
 <!-- LALA Bahas paper hall, ga perlu detil2, cek cochrane dan noah dan [Tyler Cowen on Robert Hall](https://marginalrevolution.com/marginalrevolution/2026/10/robert-hall-nobel-laureate.html) make sure key takeawaysnya ada: bahwa konsumsi follows Permanent Income Hypothesis (PIH) by friedman consumption follows a random walk (artinya ga banyak hal masa lalu yg ngaruh ke konsumsi, time series alone wont help you predict the econom), -->
 
+
+
 <!-- HAIKAL Bahas woodford, bahas soal new NK model for CB, that is, macro vars pada random walk, thus forward looking, thus setting expectation by having a credible central bank is very important, mungkin lebih penting daripada toolsnya itu sendiri. "Communication itself is a POLICY TOOL for BI" Haikal mesti dig in apa yang disebut dengan "New Keynesian model"  aka the 3-equation model. -->
 
 # Pelajaran bagi indon
