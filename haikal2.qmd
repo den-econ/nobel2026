@@ -1,0 +1,70 @@
+## Pelajaran bagi Indonesia
+
+Bagi Indonesia, kerangka di atas memberi satu pesan utama, yaitu ekspektasi adalah bagian dari kebijakan itu sendiri, sehingga cara kebijakan dikomunikasikan sama pentingnya dengan keputusan kebijakannya.
+
+### Komunikasi yang kredibel dan ekspektasi
+
+Persamaan (1) yang diterapkan berulang ke depan menunjukkan bahwa belanja hari ini bergantung pada seluruh jalur bunga riil yang diperkirakan, bukan hanya suku bunga saat ini (Woodford 2003, 244). Jika bunga riil naik 1 poin di atas bunga natural hanya untuk satu periode, *output gap* turun sekitar $\sigma \times 1$ poin; jika kenaikan itu diperkirakan bertahan empat periode, dampaknya menjadi sekitar $\sigma \times 4$ poin. Karena itu, komunikasi yang kredibel tentang berapa lama kebijakan akan dipertahankan dapat mengurangi besarnya kenaikan suku bunga yang dibutuhkan, sekaligus membuat kejutan harga seperti kenaikan harga pangan dipandang sementara sehingga tidak menjalar ke upah dan harga lain.
+
+Kredibilitas tersebut tidak terbentuk dari pernyataan saja, tetapi dari konsistensi antara pesan dan tindakan. Setiap kali pernyataan diikuti tindakan yang sesuai, pernyataan berikutnya makin cepat dipercaya; sebaliknya, pernyataan yang tidak ditepati membuat pasar kembali menunggu bukti.
+
+### Komunikasi yang sama di pasar obligasi dan pasar modal
+
+Prinsip yang sama berlaku di pasar obligasi. Jalur suku bunga yang diperkirakan tercermin dalam imbal hasil obligasi, yang merupakan rata-rata dari suku bunga kebijakan dalam persamaan (3) yang diharapkan pasar pada periode-periode mendatang, ditambah premi risiko. Secara sederhana, imbal hasil obligasi bertenor $n$ periode dapat ditulis sebagai:
+
+$$
+i_t^{(n)} = \frac{1}{n} \sum_{j=0}^{n-1} E_t\, i_{t+j} + \theta_t^{(n)}. \tag{4}
+$$
+
+Dalam persamaan ini, $i_t^{(n)}$ adalah imbal hasil obligasi bertenor $n$ periode pada periode $t$; $E_t\, i_{t+j}$ ekspektasi suku bunga kebijakan $j$ periode ke depan; $\frac{1}{n}\sum$ rata-rata ekspektasi tersebut sepanjang tenor; dan $\theta_t^{(n)}$ premi risiko atau *term premium*, yaitu kompensasi tambahan yang diminta investor untuk memegang obligasi bertenor $n$. Dengan demikian, persamaan (4) menjadi penghubung antara aturan suku bunga dalam persamaan (3) dan keputusan belanja dalam persamaan (1). Kenaikan imbal hasil SBN dapat berasal dari dua sumber: perubahan ekspektasi terhadap arah BI Rate atau kenaikan premi risiko. Komponen pertama dapat dibentuk melalui komunikasi yang jelas dan konsisten tentang arah kebijakan, sehingga imbal hasil SBN bergerak sejalan dengan arah BI Rate sebelum perubahan itu terjadi. Komponen kedua tidak dikendalikan langsung oleh bank sentral, tetapi tetap menaikkan biaya pinjaman rumah tangga dan perusahaan, sehingga dampaknya terhadap belanja dalam persamaan (1) serupa dengan kenaikan suku bunga.
+
+Logika yang sama berlaku di pasar saham. Seperti SBN, harga saham merupakan nilai kini dari arus kas ke depan yang didiskonto dengan jalur suku bunga yang diperkirakan ditambah premi risiko; bedanya, arus kas saham berupa dividen yang tidak pasti. Dalam kerangka Woodford, faktor diskonto yang menentukan harga saham sama dengan yang menentukan suku bunga dalam persamaan (1) dan (3), yaitu faktor diskonto stokastik $Q_{t,t+1}$ (Woodford 2003, 66). Untuk saham dengan dividen $D$, harganya dapat ditulis sebagai:
+
+$$
+P_t = E_t\left[Q_{t,t+1}\left(P_{t+1} + D_{t+1}\right)\right]. \tag{5}
+$$
+
+Di sini, $P_t$ adalah harga saham pada periode $t$; $D_{t+1}$ dividen periode berikutnya; $E_t$ ekspektasi berdasarkan informasi saat ini; dan $Q_{t,t+1}$ faktor diskonto stokastik, yaitu nilai hari ini dari satu rupiah yang diterima pada periode berikutnya menurut penilaian investor. Nilainya mengecil ketika investor menuntut premi risiko yang lebih tinggi. Faktor diskonto ini mencerminkan perbandingan nilai konsumsi hari ini dan esok, logika yang sama dengan persamaan (1), dan nilai ekspektasinya sama dengan kebalikan dari satu ditambah suku bunga. Karena itu, kenaikan BI Rate maupun kenaikan premi risiko sama-sama memperkecil faktor diskonto dan menekan harga saham, meskipun prospek dividen tidak berubah. Sebaliknya, kepercayaan terhadap arah kebijakan dan tata kelola pasar membantu menjaga faktor diskonto tetap stabil.
+
+Kasus MSCI memperlihatkan mekanisme tersebut. Usulan MSCI untuk menurunkan klasifikasi Indonesia dari *Emerging Market* menjadi *Standalone Market* karena kekhawatiran atas transparansi dan tata kelola pasar masih dalam tahap konsultasi (MSCI 2026). Meski begitu, harga saham Indonesia langsung tertekan. Menurut persamaan (5), penurunan ini mencerminkan kenaikan premi risiko, bukan perubahan prospek dividen. Sama seperti *forward guidance*, pengumuman reformasi baru akan dipercaya jika pelaksanaannya dapat dibuktikan.
+
+Harga saham memang bukan target langsung kebijakan moneter. Namun, kenaikan premi risiko di pasar saham dapat berimbas ke imbal hasil SBN melalui $\theta$ dalam persamaan (4), serta ke arus modal dan nilai tukar rupiah. Kenaikan imbal hasil tersebut pada akhirnya masuk ke persamaan (1) sebagai biaya pinjaman yang lebih tinggi bagi rumah tangga dan perusahaan, sehingga menekan belanja dan memengaruhi inflasi melalui persamaan (2). Karena itu, kredibilitas bank sentral dan integritas pasar modal saling menguatkan. Ketika komitmen yang diumumkan, baik arah suku bunga maupun reformasi pasar, terbukti dijalankan, ekspektasi lebih mudah terjangkar, premi risiko menurun, dan sasaran kebijakan dapat dicapai dengan biaya yang lebih kecil.
+
+### Prinsip yang dapat diadopsi Indonesia
+
+Pembahasan di atas bermuara pada satu hal yaitu kebijakan bekerja paling efektif ketika masyarakat dan pasar dapat memahami serta memercayai arahnya. Woodford merangkum gagasan tersebut ke dalam enam prinsip kebijakan moneter pada bab pertama *Interest and Prices* (Woodford 2003, bb. 1). Prinsip-prinsip ini tidak menuntut kerangka baru, tetapi dapat menjadi pegangan agar sasaran, respons, dan komunikasi kebijakan di Indonesia tetap konsisten satu sama lain.
+
+1. **Jaga stabilitas harga sebagai sasaran utama.** Sasaran yang jelas menjadi patokan bagi pembentukan ekspektasi, dengan fokus pada harga yang jarang disesuaikan, bukan harga aset (Woodford 2003, 13–14).
+2. **Kelola ekspektasi, bukan hanya suku bunga hari ini.** Sebagaimana terlihat pada persamaan (1) dan (4), belanja dan imbal hasil obligasi digerakkan oleh perkiraan jalur suku bunga ke depan (Woodford 2003, 15–16).
+3. **Berkomitmen pada pola kebijakan yang sistematis.** Kebijakan yang dapat diperkirakan membuat pasar ikut bergerak searah bahkan sebelum suku bunga berubah (Woodford 2003, 18–20).
+4. **Perhitungkan riwayat masa lalu.** Respons yang optimal juga mempertimbangkan seberapa jauh inflasi pernah menyimpang dari target, sehingga komitmen yang telah disampaikan ikut ditepati (Woodford 2003, 21).
+5. **Respons inflasi secara memadai.** Sesuai *Taylor principle*, kenaikan inflasi perlu dijawab dengan kenaikan suku bunga yang lebih besar agar ekspektasi tetap terjangkar (Woodford 2003, 40, 46).
+6. **Jelaskan arah kebijakan ke depan.** Yang dibutuhkan pasar adalah sinyal yang jelas melalui penjelasan keputusan dan proyeksi, bukan sekadar publikasi risalah rapat (Woodford 2003, 16–17).
+
+Keenam prinsip tersebut saling melengkapi. Sasaran yang jelas dan respons yang konsisten membangun kredibilitas, sedangkan komunikasi yang terang memastikan kredibilitas itu tercermin dalam ekspektasi masyarakat, imbal hasil obligasi, dan harga aset.
+
+## Referensi {.unnumbered}
+
+::: {.hanging-indent}
+Dizikes, Peter. 2026. "Economists Robert Hall PhD '67 and Michael Woodford PhD '83 Share Nobel Prize." *MIT News*. 12 Oktober 2026. <https://news.mit.edu/2026/robert-hall-michael-woodford-share-nobel-prize-economics-1012>.
+
+Friedman, Milton. 1957. *A Theory of the Consumption Function*. Princeton: Princeton University Press. <https://www.nber.org/books-and-chapters/theory-consumption-function>.
+
+Gürkaynak, Refet S., Brian Sack, dan Eric T. Swanson. 2004. "Do Actions Speak Louder Than Words? The Response of Asset Prices to Monetary Policy Actions and Statements." Finance and Economics Discussion Series 2004-66. Board of Governors of the Federal Reserve System. <https://www.federalreserve.gov/econres/feds/do-actions-speak-louder-than-words-the-response-of-asset-prices-to-monetary-policy-actions-and-statements.htm>.
+
+Hall, Robert E. 1978. "Stochastic Implications of the Life Cycle-Permanent Income Hypothesis: Theory and Evidence." *Journal of Political Economy* 86 (6): 971–87. <https://doi.org/10.1086/260724>.
+
+Jarociński, Marek, dan Peter Karadi. 2020. "Deconstructing Monetary Policy Surprises—The Role of Information Shocks." *American Economic Journal: Macroeconomics* 12 (2): 1–43. <https://doi.org/10.1257/mac.20180090>.
+
+Lucas, Robert E., Jr. 1976. "Econometric Policy Evaluation: A Critique." *Carnegie-Rochester Conference Series on Public Policy* 1: 19–46. <https://doi.org/10.1016/S0167-2231(76)80003-6>.
+
+MSCI. 2026. "MSCI Launches Consultation on Proposal to Reclassify Indonesia from Emerging Market to Standalone Market Status." 15 Oktober 2026. <https://app2.msci.com/webapp/index_ann/DocGet?format=html&lang=en&pub_key=cOQ9FiTsR0g%3D>.
+
+Muth, John F. 1961. "Rational Expectations and the Theory of Price Movements." *Econometrica* 29 (3): 315–35. <https://doi.org/10.2307/1909635>.
+
+Taylor, John B. 1993. "Discretion versus Policy Rules in Practice." *Carnegie-Rochester Conference Series on Public Policy* 39: 195–214. <https://doi.org/10.1016/0167-2231(93)90009-L>.
+
+Woodford, Michael. 2003. *Interest and Prices: Foundations of a Theory of Monetary Policy*. Princeton: Princeton University Press.
+
+———. 2005. "Central Bank Communication and Policy Effectiveness." Working Paper 11898. National Bureau of Economic Research. <https://doi.org/10.3386/w11898>.
+:::
