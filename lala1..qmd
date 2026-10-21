@@ -5,7 +5,7 @@ Dalam *Life-Cycle–Permanent Income Hypothesis* (LC–PIH), konsumsi tidak hany
 Hall (1978) menunjukkan bahwa, di bawah asumsi tertentu—antara lain *rational expectations*, quadratic utility, tingkat bunga yang sesuai dengan faktor diskonto, dan tidak adanya *binding borrowing constraints*—konsumsi optimal mengikuti *random walk*:
 
 $$
-C_{t+1}=C_t+\varepsilon_{t+1}, \qquad E_t[\varepsilon_{t+1}]=0.
+C_{t+1}=C_t+\varepsilon_{t+1}, \qquad E_t[\varepsilon_{t+1}]=0
 $$
 
 Persamaan ini **bukan** berarti konsumsi ditentukan tanpa pertimbangan ekonomi. Sebaliknya, karena rumah tangga telah memanfaatkan informasi yang tersedia secara rasional, perubahan konsumsi berikutnya hanya mencerminkan *innovation* atau informasi baru yang belum dapat diprediksi. Implikasinya dapat diuji melalui regresi:
