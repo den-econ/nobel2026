@@ -65,15 +65,20 @@ crossref: # turn off if you write in english
   eq-prefix: Persamaan
 ---
 
-# Intro
+# Ekspektasi dan Kredibilitas dalam Kebijakan Moneter
 
-<!-- background soal bahwa 2 orang ini menang nobel ekon 2026, short reason why -->
+*Hall, Woodford, dan pelajaran bagi Indonesia*
 
-<!-- rational expectation on new keynesian model was introduced, Cons -> PIH, CB-> New Keynesian philips curve ie, inflation sekarang tergantung ekspektasi inflasi masa depan ie $\pi_t=E_t \[\pi_{t+1}\] -->
+Robert E. Hall dan Michael Woodford menerima Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026 atas kontribusi mereka dalam membangun fondasi mikroekonomi bagi kebijakan stabilisasi makroekonomi. Hall memperlihatkan bahwa konsumsi rumah tangga lebih tepat dipahami sebagai keputusan yang berorientasi ke depan, bukan sekadar reaksi atas pendapatan hari ini. Sementara itu, Woodford mengembangkan kerangka teoretis yang menghubungkan keputusan antarwaktu rumah tangga, kekakuan penyesuaian harga perusahaan, dan kebijakan suku bunga bank sentral.
 
-<!-- Strong micro foundation for macro model, ga lagi menggunakan HANYA data masa lalu (ie Luas Critique) -->
+Kerangka ini menjelaskan bagaimana kebijakan moneter memengaruhi inflasi dan aktivitas ekonomi melalui ekspektasi pelaku ekonomi. Benang merah keduanya adalah bahwa dinamika ekonomi agregat berakar pada keputusan jutaan rumah tangga dan perusahaan yang tidak hanya merespons kondisi saat ini, tetapi juga mempertimbangkan perkembangan ekonomi dan kebijakan pada masa mendatang (Dizikes 2026).
 
-# Bapak dari New Keynesian Modal
+<!-- KOMEN paragraf ini redundan. penjelasan forward looking digabung aja sama paragraf sebelum ini. Udah ada lu tulis "benang merah keduanya" di paragraf sebelumnya. trus penjelasannya terlalu mendetil jadinya overlap dengan bab "Bapak dari New Keynesian Model" di bawah. Gw propose delete, klo ada kalimat yg mau lu pake, pindahin dulu-->
+Konsep yang menghubungkan karya keduanya adalah perilaku yang berorientasi ke depan (*forward-looking*), yaitu keputusan hari ini diambil berdasarkan perkiraan tentang masa depan. Gagasan ini berakar pada *Permanent Income Hypothesis* Milton Friedman, yang mengaitkan konsumsi dengan perkiraan pendapatan sepanjang hidup, meskipun perkiraan tersebut masih dibentuk dari rata-rata pendapatan masa lalu. Hall melangkah lebih jauh dengan menggabungkan gagasan itu dengan ekspektasi rasional. Jika konsumsi hari ini sudah memuat seluruh informasi yang tersedia, perubahan konsumsi esok hanya dapat digerakkan oleh berita baru, sehingga tidak dapat ditebak dari data masa lalu. Dengan kata lain, konsumsi bergerak menyerupai *random walk*. Woodford kemudian menerapkan logika yang sama pada penetapan harga oleh perusahaan. Hasilnya adalah *Phillips curve* New Keynesian, yang menunjukkan bahwa inflasi hari ini sangat bergantung pada ekspektasi inflasi periode berikutnya; dalam bentuk paling sederhana, $\pi_t \approx E_t[\pi_{t+1}]$. Perusahaan menaikkan harga hari ini jika memperkirakan biaya dan permintaan akan meningkat, sama seperti rumah tangga menimbang untung-rugi menunda atau mempercepat belanja (Friedman 1957; Hall 1978; Woodford 2003). Ekspektasi rasional berarti perkiraan dibuat dengan semua informasi yang tersedia; perkiraan itu bisa meleset, tetapi tidak secara sistematis, sebagaimana dirumuskan Muth (Muth 1961). Lucas kemudian menunjukkan bahwa model yang hanya bertumpu pada pola data masa lalu dapat menyesatkan karena masyarakat ikut mengubah ekspektasi ketika kebijakan berubah. Jalan keluarnya adalah membangun model dari preferensi dan kendala rumah tangga serta perusahaan yang tidak ikut berubah, yaitu fondasi mikroekonomi (Lucas 1976).
+
+Tulisan ini membahas kontribusi Hall dan Woodford, serta pelajaran yang dapat diambil Indonesia. Bagian pertama membahas Hall dan implikasinya bagi perilaku konsumsi rumah tangga. Bagian kedua membahas Woodford dan model New Keynesian, yang menekankan pentingnya ekspektasi dan kredibilitas bank sentral. Bagian terakhir membahas pelajaran bagi Indonesia, termasuk pentingnya mengelola ekspektasi masyarakat dan kredibilitas kebijakan fiskal dan moneter.
+
+# Bapak dari New Keynesian Model
 
 <!-- LALA Bahas paper hall, ga perlu detil2, cek cochrane dan noah dan [Tyler Cowen on Robert Hall](https://marginalrevolution.com/marginalrevolution/2026/10/robert-hall-nobel-laureate.html) make sure key takeawaysnya ada: bahwa konsumsi follows Permanent Income Hypothesis (PIH) by friedman consumption follows a random walk (artinya ga banyak hal masa lalu yg ngaruh ke konsumsi, time series alone wont help you predict the econom), -->
 
