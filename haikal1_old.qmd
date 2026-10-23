@@ -1,0 +1,52 @@
+# Ekspektasi dan Kredibilitas dalam Kebijakan Moneter
+
+
+## Bapak dari Model New Keynesian
+
+### Michael Woodford
+
+Kontribusi Woodford adalah menyusun analisis kebijakan moneter yang menempatkan ekspektasi dalam mekanisme keputusan ekonomi. Rumah tangga merencanakan konsumsi antarwaktu, perusahaan menyesuaikan harga secara bertahap, dan bank sentral memengaruhi kondisi pembiayaan melalui suku bunga serta strategi yang diperkirakan akan dijalankan. Dalam *Interest and Prices*, hubungan ini dibangun dari keputusan optimal agen, bukan hanya korelasi agregat (Woodford 2003).
+
+Woodford membawa logika Hall ke tingkat perekonomian secara keseluruhan. Jika konsumsi, inflasi, dan output digerakkan oleh ekspektasi tentang masa depan, data masa lalu saja tidak cukup untuk mengarahkannya. Woodford menegaskan bahwa keberhasilan kebijakan moneter tidak terutama terletak pada kendali atas suku bunga *overnight*, melainkan pada kemampuan membentuk ekspektasi pasar tentang arah suku bunga, inflasi, dan pendapatan ke depan (Woodford 2003, 15). Karena itu, bank sentral yang kredibel menjadi syarat utama efektivitas kebijakan, dan kemampuan mengarahkan ekspektasi bisa lebih menentukan daripada besarnya perubahan instrumen itu sendiri. Ini tidak berarti variabel makro bergerak acak; inflasi dan output tetap dipengaruhi gangguan ekonomi dan respons kebijakan.
+
+### Model tiga persamaan
+
+Model New Keynesian dasar terdiri atas tiga persamaan, masing-masing mewakili satu pelaku ekonomi, yaitu rumah tangga yang memutuskan belanja, perusahaan yang menetapkan harga, dan bank sentral yang menetapkan suku bunga. Untuk menyederhanakan analisis, model ini mengasumsikan perekonomian tertutup, yaitu tanpa perdagangan dan arus modal internasional. Asumsi ini tidak sepenuhnya mencerminkan Indonesia, yang kurs dan inflasinya juga dipengaruhi kondisi global, tetapi pesan utamanya tetap berlaku, yaitu ekspektasi dan kredibilitas kebijakan bekerja melalui ketiga persamaan tersebut. Seluruh variabel dinyatakan sebagai selisih dari kondisi normalnya; misalnya, inflasi dalam persamaan berarti selisih inflasi aktual terhadap target.
+
+Pertama, kurva IS dinamis (*dynamic IS curve*) menggambarkan keputusan belanja rumah tangga. Rumah tangga membandingkan manfaat belanja sekarang dengan belanja pada periode berikutnya, sehingga permintaan hari ini dipengaruhi oleh ekspektasi dan suku bunga riil:
+
+$$
+x_t = E_t(x_{t+1}) - \sigma\left(i_t - E_t(\pi_{t+1}) - r_t^n\right).
+$$ {#eq-is}
+
+Dalam persamaan ini, $x_t$ adalah *output gap* pada periode $t$, yaitu selisih output aktual terhadap output natural, tingkat output ketika harga dapat menyesuaikan sepenuhnya; $E_t$ menandai ekspektasi berdasarkan informasi saat ini; $x_{t+1}$ *output gap* periode berikutnya; $i_t$ suku bunga nominal kebijakan, dinyatakan sebagai deviasi dari tingkat keseimbangannya seperti pada persamaan (3); $\pi_{t+1}$ inflasi periode berikutnya; $r_t^n$ bunga riil natural, yaitu bunga riil yang menjaga output pada tingkat naturalnya; dan $\sigma > 0$ elastisitas substitusi konsumsi antarwaktu, yang mengukur seberapa peka belanja terhadap bunga riil. Persamaan ini menunjukkan dua hal. Ketika bunga riil, yaitu bunga nominal dikurangi ekspektasi inflasi, lebih tinggi daripada bunga natural, rumah tangga menunda belanja sehingga *output gap* menurun. Selain itu, ekspektasi output pada periode berikutnya ikut menentukan permintaan hari ini. Implikasinya, suku bunga yang tidak berubah belum tentu berarti *stance* kebijakan tidak berubah. Jika ekspektasi inflasi naik, bunga riil turun dan kebijakan secara efektif menjadi lebih longgar.
+
+Kedua, *Phillips curve* New Keynesian menggambarkan pembentukan inflasi. Karena perusahaan tidak dapat mengubah harga setiap saat, harga yang ditetapkan hari ini perlu memperhitungkan biaya dan permintaan pada periode mendatang:
+
+$$
+\pi_t = \beta E_t(\pi_{t+1}) + \kappa x_t + v_t.
+$$ {#eq-nkpc}
+
+Di sini, $\pi_t$ adalah inflasi saat ini relatif terhadap target; $E_t(\pi_{t+1})$ ekspektasi inflasi periode berikutnya; $\beta$ faktor diskonto dengan nilai antara nol dan satu; $\kappa > 0$ sensitivitas inflasi terhadap *output gap*; $x_t$ *output gap*; dan $v_t$ gangguan biaya (*cost push*) di luar tekanan permintaan, misalnya kenaikan harga pangan atau bahan baku. Persamaan ini menunjukkan bahwa inflasi hari ini ditentukan oleh tiga faktor, yaitu ekspektasi inflasi ke depan, tekanan permintaan yang tercermin dalam *output gap*, dan gangguan biaya. Dalam konteks Indonesia, gejolak harga pangan dan harga yang diatur pemerintah, seperti BBM, termasuk dalam gangguan biaya. Karena itu, tidak setiap kenaikan inflasi mencerminkan perubahan ekspektasi.
+
+Ketiga, aturan suku bunga menggambarkan respons bank sentral. Bank sentral menyesuaikan suku bunga secara sistematis terhadap inflasi dan *output gap*, dengan ruang untuk keputusan di luar pola tersebut:
+
+$$
+i_t = \phi_\pi \pi_t + \phi_x x_t + \varepsilon_t^i.
+$$ {#eq-taylor}
+
+Dalam aturan ini, $i_t$ adalah suku bunga nominal kebijakan yang sama dengan persamaan (1), yaitu deviasi dari tingkat keseimbangannya; $\pi_t$ inflasi relatif terhadap target; $x_t$ *output gap*; $\phi_\pi \geq 0$ koefisien respons bunga terhadap inflasi; $\phi_x \geq 0$ koefisien respons terhadap *output gap*; dan $\varepsilon_t^i$ keputusan suku bunga di luar pola sistematis tersebut. Aturan ini merupakan acuan analitis, bukan rumus resmi. Dalam praktiknya, bank sentral juga mempertimbangkan kurs, proyeksi inflasi, dan faktor lain. Aturan ini membantu masyarakat memperkirakan respons bank sentral terhadap perubahan kondisi. Syarat utamanya dikenal sebagai *Taylor principle*. Ketika inflasi naik, suku bunga perlu dinaikkan lebih besar daripada kenaikan inflasi tersebut agar bunga riil ikut naik dan inflasi dapat diredam; dalam persamaan (3), secara sederhana ini berarti koefisien respons terhadap inflasi lebih besar dari satu (Taylor 1993; Woodford 2003, 252–54).
+
+### Ekspektasi yang dapat memenuhi dirinya sendiri
+
+Ketiga persamaan tersebut juga menjelaskan mengapa ekspektasi inflasi dapat terwujud dengan sendirinya (*self-fulfilling inflation*). Ketika masyarakat memperkirakan inflasi akan meningkat dan bank sentral tidak menaikkan suku bunga, bunga riil yang diharapkan justru bisa menurun sehingga mendorong belanja. Pada saat yang sama, perusahaan yang mengantisipasi kenaikan biaya menyesuaikan harga lebih awal. Akibatnya, inflasi benar-benar meningkat meskipun tidak didorong oleh perubahan fundamental yang berarti (Woodford 2003, bb. 4 bagian 2.2).
+
+Risiko ini muncul ketika bank sentral merespons inflasi terlalu lemah. Dalam kondisi tersebut, tidak ada yang mengarahkan ekspektasi. Jika masyarakat memperkirakan inflasi 3 persen, inflasi cenderung bergerak ke 3 persen; jika masyarakat memperkirakan 6 persen, inflasi juga dapat bergerak ke sana. Arah inflasi akhirnya ditentukan oleh keyakinan masyarakat, bukan oleh kebijakan. Woodford menyebut kondisi ini indeterminasi. *Taylor principle* mencegah hal tersebut. Jika bank sentral selalu menaikkan suku bunga lebih besar daripada kenaikan inflasi, bunga riil ikut naik setiap kali ekspektasi inflasi meningkat, sehingga belanja tertahan dan inflasi kembali ke target. Dengan respons seperti itu, target inflasi menjadi satu-satunya titik yang dapat dipercaya masyarakat. Namun, perlindungan ini hanya berlaku di sekitar target; dalam kondisi ekstrem, misalnya deflasi yang dalam ketika suku bunga tidak dapat diturunkan lebih jauh, risiko serupa tetap dapat muncul (Woodford 2003, bb. 2).
+
+### Komunikasi sebagai alat kebijakan
+
+Keputusan rumah tangga dan investor tidak hanya bergantung pada suku bunga hari ini, tetapi juga pada perkiraan suku bunga pada masa mendatang. Rumah tangga yang mengambil kredit mempertimbangkan bunga selama masa pinjaman, sementara investor mempertimbangkan imbal hasil untuk berbagai jangka waktu. Karena itu, penjelasan bank sentral yang dipercaya tentang arah kebijakan dapat mengubah keputusan tersebut bahkan sebelum suku bunga berubah (Woodford 2005).
+
+Woodford menggambarkan kondisi ini sebagai pasar yang ikut "mengerjakan tugas bank sentral". Ketika ekspektasi suku bunga ke depan ikut bergeser, perubahan suku bunga kebijakan yang dibutuhkan untuk mencapai efek yang sama bisa jauh lebih kecil (Woodford 2003, 16). Sebagai ilustrasi hipotetis, jika bank sentral menyatakan secara kredibel bahwa suku bunga akan dipertahankan tinggi hingga inflasi kembali ke target, imbal hasil obligasi sudah naik sebelum suku bunga kebijakan dinaikkan karena pasar memperhitungkan jalur suku bunga ke depan. Akibatnya, kenaikan suku bunga yang diperlukan untuk meredam inflasi bisa lebih kecil, misalnya 50 bps alih-alih 100 bps. Sebaliknya, jika pasar tidak percaya, bank sentral harus menaikkan suku bunga lebih tinggi untuk mencapai efek yang sama.
+
+Bukti dari Amerika Serikat juga mendukung hal ini. Pergerakan harga aset setelah pengumuman The Fed tidak hanya dipengaruhi oleh perubahan suku bunga, tetapi juga oleh sinyal tentang arah kebijakan ke depan (Gürkaynak, Sack, dan Swanson 2004). Namun, pengumuman bank sentral juga dapat dibaca sebagai informasi tentang kondisi ekonomi. Penurunan suku bunga yang ditafsirkan sebagai tanda ekonomi melemah, misalnya, tidak selalu diikuti kenaikan harga saham (Jarociński dan Karadi 2020).

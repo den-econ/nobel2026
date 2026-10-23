@@ -30,7 +30,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="nobel2026-deck_files/libs/revealjs/dist/theme/quarto-a85655685b4dc50229f75d0d954e19c7.css">
   <link rel="stylesheet" href="_extensions/den-econ/den/revealjs.scss">
   <link href="nobel2026-deck_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -186,8 +205,8 @@ Hall (1988), JPE
 <ul>
 <li>Model Keynesian/IS-LM: <span class="math inline">\(C = \bar{C} + \alpha Y\)</span>, dengan <span class="math inline">\(\alpha\)</span> = <em>marginal propensity to consume</em> (MPC)</li>
 <li>MPC menentukan besar <em>multiplier</em> belanja pemerintah</li>
-<li>Friedman (1957): rumah tangga mengonsumsi berdasarkan <strong>pendapatan permanen</strong>, bukan pendapatan saat ini</li>
-<li>Lucas (1976): parameter seperti MPC tidak stabil ketika kebijakan berubah</li>
+<li><span class="citation" data-cites="friedman1957">Friedman (<a href="#/lampiran-referensi" role="doc-biblioref" onclick="">1957</a>)</span>: rumah tangga mengonsumsi berdasarkan <strong>pendapatan permanen</strong>, bukan pendapatan saat ini</li>
+<li><span class="citation" data-cites="lucas1976">Lucas (<a href="#/lampiran-referensi" role="doc-biblioref" onclick="">1976</a>)</span>: parameter seperti MPC tidak stabil ketika kebijakan berubah</li>
 <li>Tantangan: bagaimana menguji teori konsumsi bila rumah tangga punya informasi lebih banyak dari ekonom?</li>
 </ul>
 </section>
@@ -380,8 +399,8 @@ x_t = E_t x_{t+1} - \sigma\,(i_t - E_t \pi_{t+1})
 \]</span></p>
 <ul>
 <li>Model mengasumsikan <span class="math inline">\(\sigma\)</span> cukup besar, padahal data Hall menunjukkan kecil</li>
-<li>Cochrane (2024): ini masih “duri” dalam makroekonomi modern</li>
-<li>Studi baru (mis. Di Tella dkk. 2023) mulai menemukan respons, tetapi tetap kecil</li>
+<li><span class="citation" data-cites="cochrane2024">Cochrane (<a href="#/lampiran-referensi" role="doc-biblioref" onclick="">2024</a>)</span>: ini masih “duri” dalam makroekonomi modern</li>
+<li>Studi baru <span class="citation" data-cites="ditella2023">(mis. <a href="#/lampiran-referensi" role="doc-biblioref" onclick="">Di Tella dkk. 2023</a>)</span> mulai menemukan respons, tetapi tetap kecil</li>
 </ul>
 </section>
 <section id="implikasi-bagi-indonesia" class="slide level2 section-divider" data-background-image="title.jpg">
@@ -451,15 +470,28 @@ Pelajaran untuk Indonesia
 <section id="terima-kasih" class="slide level2 ending-slide" data-background-image="end.jpg" data-background-size="cover">
 <h2>Terima kasih</h2>
 </section>
-<section id="lampiran-referensi" class="slide level2 small">
+<section id="lampiran-referensi" class="slide level2 small allowframebreaks smaller scrollable">
 <h2>Lampiran: Referensi</h2>
-<ul>
-<li>Hall, R. E. (1978). Stochastic Implications of the Life Cycle–Permanent Income Hypothesis: Theory and Evidence. <em>Journal of Political Economy</em>, 86(6), 971–987.</li>
-<li>Hall, R. E. (1988). Intertemporal Substitution in Consumption. <em>Journal of Political Economy</em>, 96(2), 339–357.</li>
-<li>Cochrane, J. H. (2024). Bob Hall and Consumption. Hoover Institution.</li>
-<li>Friedman, M. (1957). <em>A Theory of the Consumption Function</em>. Princeton University Press.</li>
-<li>Lucas, R. E. (1976). Econometric Policy Evaluation: A Critique. <em>Carnegie-Rochester Conference Series on Public Policy</em>, 1.</li>
-</ul>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-cochrane2024" class="csl-entry" role="listitem">
+Cochrane, John H. 2024. <em>Bob Hall and Consumption</em>. Makalah untuk konferensi penghormatan Robert E. Hall, Hoover Institution, 22 November 2024. <a href="https://www.grumpy-economist.com/p/bob-hall-and-consumption">https://www.grumpy-economist.com/p/bob-hall-and-consumption</a>.
+</div>
+<div id="ref-ditella2023" class="csl-entry" role="listitem">
+Di Tella, Sebastian, Benjamin Hébert, Pablo Kurlat, dan Qitong Wang. 2023. <span>“The Zero-Beta Rate.”</span> Manuskrip.
+</div>
+<div id="ref-friedman1957" class="csl-entry" role="listitem">
+Friedman, Milton. 1957. <em>A Theory of the Consumption Function</em>. Princeton: Princeton University Press. <a href="https://www.nber.org/books-and-chapters/theory-consumption-function">https://www.nber.org/books-and-chapters/theory-consumption-function</a>.
+</div>
+<div id="ref-hall1978" class="csl-entry" role="listitem">
+Hall, Robert E. 1978. <span>“Stochastic Implications of the Life Cycle–Permanent Income Hypothesis: Theory and Evidence.”</span> <em>Journal of Political Economy</em> 86 (6): 971–987. <a href="https://doi.org/10.1086/260724">https://doi.org/10.1086/260724</a>.
+</div>
+<div id="ref-hall1988" class="csl-entry" role="listitem">
+Hall, Robert E. 1988. <span>“Intertemporal Substitution in Consumption.”</span> <em>Journal of Political Economy</em> 96 (2): 339–357. <a href="https://doi.org/10.1086/261539">https://doi.org/10.1086/261539</a>.
+</div>
+<div id="ref-lucas1976" class="csl-entry" role="listitem">
+Lucas, Jr., Robert E. 1976. <span>“Econometric Policy Evaluation: A Critique.”</span> <em>Carnegie-Rochester Conference Series on Public Policy</em> 1: 19–46. <a href="https://doi.org/10.1016/S0167-2231(76)80003-6">https://doi.org/10.1016/S0167-2231(76)80003-6</a>.
+</div>
+</div>
 
 </section>
     </div>
